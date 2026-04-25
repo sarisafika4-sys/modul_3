@@ -30,20 +30,16 @@ package id.ac.polbeng.depandi.test_kelas
         return numberFormat.format(baseSalary).toString()
     }
 
-    fun main() {
-        val employee = EmployeeD()
-        println("Rata-rata gaji ${employee.javaClass.simpleName} = ${toRupiahFormat(employee.baseSalary)}")
+fun main() {
+    val employee = EmployeeD()
+    println("Rata-rata gaji ${employee.javaClass.simpleName} = ${toRupiahFormat(employee.baseSalary)}")
 
-        val programmer = Programmer()
-        println("Rata-rata gaji ${programmer.javaClass.simpleName} =
-            ${toRupiahFormat(programmer.baseSalary)}")
+    val programmer = Programmer()
+    println("Rata-rata gaji ${programmer.javaClass.simpleName} = ${toRupiahFormat(programmer.baseSalary)}")
 
-        val softwareEngineer = SoftwareEngineer()
-        println("Rata-rata gaji ${softwareEngineer.javaClass.simpleName} =
-            ${toRupiahFormat(softwareEngineer.baseSalary)}")
+    val softwareEngineer = SoftwareEngineer()
+    println("Rata-rata gaji ${softwareEngineer.javaClass.simpleName} = ${toRupiahFormat(softwareEngineer.baseSalary)}")
 
-        val projectManager = ProjectManager()
-        println("Rata-rata gaji ${projectManager.javaClass.simpleName} =
-            ${toRupiahFormat(projectManager.baseSalary)}")
-    }
+    val projectManager = ProjectManager()
+    println("Rata-rata gaji ${projectManager.javaClass.simpleName} = ${toRupiahFormat(projectManager.baseSalary)}")
 }

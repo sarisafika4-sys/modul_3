@@ -3,7 +3,7 @@ open class Mahasiswa(var nama: String, var nrp: Int){
     open fun info() {
         println(nama +'\n'+ nrp);
     }
-    fun toString(): String {
+    override fun toString(): String {
         return "Mahasiswa{nama= $nama, nrp= $nrp}"
     }
 }
